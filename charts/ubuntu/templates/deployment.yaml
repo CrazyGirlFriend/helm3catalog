@@ -148,22 +148,4 @@ spec:
       schedulerName: default-scheduler
       securityContext: {}
       terminationGracePeriodSeconds: 30
-status:
-  availableReplicas: 1
-  conditions:
-  - lastTransitionTime: "2021-05-16T05:38:39Z"
-    lastUpdateTime: "2021-05-16T05:38:39Z"
-    message: Deployment has minimum availability.
-    reason: MinimumReplicasAvailable
-    status: "True"
-    type: Available
-  - lastTransitionTime: "2021-05-16T05:38:26Z"
-    lastUpdateTime: "2021-05-16T05:38:39Z"
-    message: ReplicaSet "testubuntu-59d687f444" has successfully progressed.
-    reason: NewReplicaSetAvailable
-    status: "True"
-    type: Progressing
-  observedGeneration: 1
-  readyReplicas: 1
-  replicas: 1
-  updatedReplicas: 1
+
