@@ -1,0 +1,29 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -c
+    kompose.version: 1.7.0 (HEAD)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: zoo2
+  name: zoo2
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: zoo2
+    spec:
+      containers:
+      - env:
+        - name: ZOO_MY_ID
+          value: "2"
+        image: 119.253.86.183:18080/hadoop_plus/book2/zookeeper:3.4.13
+        name: zoo2
+        resources: {}
+        tty: true
+      restartPolicy: Always
+status: {}

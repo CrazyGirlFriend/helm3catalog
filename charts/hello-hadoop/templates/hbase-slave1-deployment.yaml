@@ -1,0 +1,26 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -c
+    kompose.version: 1.7.0 (HEAD)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: hbase-slave1
+  name: hbase-slave1
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: hbase-slave1
+    spec:
+      containers:
+      - image: 119.253.86.183:18080/hadoop_plus/book2/hbase:master-slave1
+        name: hbase-slave1
+        resources: {}
+        tty: true
+      restartPolicy: Always
+status: {}

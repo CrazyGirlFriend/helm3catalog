@@ -1,0 +1,28 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -c
+    kompose.version: 1.7.0 (HEAD)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: kafka
+  name: kafka
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: kafka
+    spec:
+      containers:
+      - image: 119.253.86.183:18080/hadoop/book2/kafka:2.11
+        name: kafka-single
+        ports:
+        - containerPort: 9092
+        resources: {}
+        tty: true
+      restartPolicy: Always
+status: {}

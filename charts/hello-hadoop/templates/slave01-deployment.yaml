@@ -1,0 +1,31 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -c
+    kompose.version: 1.7.0 (HEAD)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: slave01
+  name: slave01
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: slave01
+    spec:
+      containers:
+      - env:
+        - name: FLUME_AGENT_NAME
+          value: docker
+        image: 119.253.86.183:18080/hadoop_plus/book2/flume-apache:02
+        name: slave01
+        ports:
+        - containerPort: 80
+        - containerPort: 44444
+        resources: {}
+      restartPolicy: Always
+status: {}

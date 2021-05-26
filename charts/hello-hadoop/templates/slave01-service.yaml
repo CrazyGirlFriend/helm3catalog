@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -c
+    kompose.version: 1.7.0 (HEAD)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: slave01
+  name: slave01
+spec:
+  ports:
+  - name: "10080"
+    port: 10080
+    targetPort: 80
+  - name: "44444"
+    port: 44444
+    targetPort: 44444
+  selector:
+    io.kompose.service: slave01
+status:
+  loadBalancer: {}

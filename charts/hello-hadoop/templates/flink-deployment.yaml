@@ -1,0 +1,28 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -c
+    kompose.version: 1.7.0 (HEAD)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: flink
+  name: flink
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: flink
+    spec:
+      containers:
+      - image: 119.253.86.183:18080/hadoop/book2/flink:1.7
+        name: flink-single
+        ports:
+        - containerPort: 8081
+        resources: {}
+        tty: true
+      restartPolicy: Always
+status: {}

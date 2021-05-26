@@ -1,0 +1,36 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -c
+    kompose.version: 1.7.0 (HEAD)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: hbase-master
+  name: hbase-master
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        io.kompose.service: hbase-master
+    spec:
+      containers:
+      - image: 119.253.86.183:18080/hadoop_plus/book2/hbase:master-slave1
+        name: hbase-master
+        ports:
+        - containerPort: 50070
+        - containerPort: 8088
+        - containerPort: 8080
+        - containerPort: 8042
+        - containerPort: 16010
+        - containerPort: 7077
+        - containerPort: 4040
+        - containerPort: 10002
+        - containerPort: 5000
+        resources: {}
+        tty: true
+      restartPolicy: Always
+status: {}
