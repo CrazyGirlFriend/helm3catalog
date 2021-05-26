@@ -1,19 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: Flink
+  name: flink
 spec:
   selector:
     matchLabels:
-      app: Flink
+      app: flink
   replicas: 1
   template:
     metadata:
       labels:
-        app: Flink
+        app: flink
     spec:
       containers:
       - name: flink
         image: 119.253.86.183:18080/hadoop/book2/flink:1.7
-        ports:
-        - containerPort: 80
