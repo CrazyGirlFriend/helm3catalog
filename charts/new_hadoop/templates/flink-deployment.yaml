@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: flink
+  name: Flink
 spec:
   selector:
     matchLabels:
-      app: flink
+      app: Flink
   replicas: 1
   template:
     metadata:
       labels:
-        app: flink
+        app: Flink
     spec:
       containers:
       - name: flink
