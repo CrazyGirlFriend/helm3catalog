@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hbase-slave1
+spec:
+  selector:
+    matchLabels:
+      app: hbase-slave1
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: hbase-slave1
+    spec:
+      containers:
+      - name: hbase-slave1
+        image: 119.253.86.183:18080/hadoop_plus/book2/hbase:master-slave1
+        tty: true

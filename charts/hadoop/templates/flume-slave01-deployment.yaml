@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flume-slave01
+spec:
+  selector:
+    matchLabels:
+      app: flume-slave01
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: flume-slave01
+    spec:
+      containers:
+      - env:
+          - name: FLUME_AGENT_NAME
+            value: docker
+        name: flume-slave01
+        image: 119.253.86.183:18080/hadoop/book2/flume-apache:02
+        tty: true
+        ports:
+        - containerPort: 80
+        - containerPort: 4444

@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: flume-slave01
+spec:
+  selector:
+    app: flume-slave01
+  ports:
+  - protocol: TCP
+    port: 10080
+    targetPort: 80
+  - protocol: TCP
+      port: 44444
+      targetPort: 44444
+  type: NodePort
