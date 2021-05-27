@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="重新编写helloworld 模版" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="23243636-9b4c-4081-8393-4f988bc6da9b" />
+  <component name="ProjectId" id="1sbL0PoZsALxa8qccsofh6li893" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/charts" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/charts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="" />
+      <created>1621136118713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621136118713</updated>
+      <workItem from="1621136120061" duration="5220000" />
+      <workItem from="1621150320051" duration="425000" />
+      <workItem from="1621246547674" duration="628000" />
+      <workItem from="1621839789531" duration="55000" />
+      <workItem from="1621843189389" duration="2272000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改镜像tag">
+      <created>1621145029329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621145029329</updated>
+    </task>
+    <task id="LOCAL-00002" summary="删除探针和port">
+      <created>1621145619468</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621145619468</updated>
+    </task>
+    <task id="LOCAL-00003" summary="将rancher复制查看一下是否可行">
+      <created>1621146813223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621146813223</updated>
+    </task>
+    <task id="LOCAL-00004" summary="将删除status">
+      <created>1621147188726</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621147188726</updated>
+    </task>
+    <task id="LOCAL-00005" summary="还原成之前的内容">
+      <created>1621148155432</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621148155432</updated>
+    </task>
+    <task id="LOCAL-00006" summary="重新编写helloworld 模版">
+      <created>1621843340606</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621843340606</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改镜像tag" />
+    <MESSAGE value="删除探针和port" />
+    <MESSAGE value="将rancher复制查看一下是否可行" />
+    <MESSAGE value="将删除status" />
+    <MESSAGE value="还原成之前的内容" />
+    <MESSAGE value="重新编写helloworld 模版" />
+    <option name="LAST_COMMIT_MESSAGE" value="重新编写helloworld 模版" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="176" y="182" key="IDE.errors.dialog" timestamp="1621145074203">
+      <screen x="0" y="25" width="1440" height="820" />
+    </state>
+    <state x="176" y="182" key="IDE.errors.dialog/0.25.1440.820@0.25.1440.820" timestamp="1621145074203" />
+    <state x="229" y="86" key="SettingsEditor" timestamp="1621246877511">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621246877511" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1621843344409">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1621843344409" />
+    <state x="320" y="195" key="Vcs.Push.Dialog.v2/0.25.1440.820@0.25.1440.820" timestamp="1621145038223" />
+  </component>
+</project>
