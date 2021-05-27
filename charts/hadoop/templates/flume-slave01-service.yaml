@@ -10,6 +10,6 @@ spec:
     port: 10080
     targetPort: 80
   - protocol: TCP
-      port: 44444
-      targetPort: 44444
+    port: 44444
+    targetPort: 44444
   type: NodePort
