@@ -21,4 +21,4 @@ spec:
         tty: true
         ports:
         - containerPort: 80
-        - containerPort: 4444
+        - containerPort: 44444
