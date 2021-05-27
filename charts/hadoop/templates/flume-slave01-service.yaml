@@ -6,10 +6,10 @@ spec:
   selector:
     app: flume-slave01
   ports:
-  - protocol: TCP
+  - name: "10080"
     port: 10080
     targetPort: 80
-  - protocol: TCP
+  - name: "44444"
     port: 44444
     targetPort: 44444
   type: NodePort

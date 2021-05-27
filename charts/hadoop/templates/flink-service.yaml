@@ -6,7 +6,7 @@ spec:
   selector:
     app: flink
   ports:
-  - protocol: TCP
+  - name: "8081"
     port: 8081
     targetPort: 8081
   type: NodePort

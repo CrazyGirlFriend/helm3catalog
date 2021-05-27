@@ -6,7 +6,7 @@ spec:
   selector:
     app: flume-slave02
   ports:
-  - protocol: TCP
+  - name: "20080"
     port: 20080
     targetPort: 80
   type: NodePort
