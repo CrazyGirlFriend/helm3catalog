@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: zoo2
+spec:
+  selector:
+    matchLabels:
+      app: zoo2
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: zoo2
+    spec:
+      containers:
+      - env:
+          - name: ZOO_MY_ID
+            value: "2"
+        name: zoo2
+        image: 119.253.86.183:18080/hadoop_plus/book2/zookeeper:3.4.13
+        tty: true

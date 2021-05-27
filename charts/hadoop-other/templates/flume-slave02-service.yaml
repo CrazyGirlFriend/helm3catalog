@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: flume-slave02
+spec:
+  selector:
+    app: flume-slave02
+  ports:
+  - name: "20080"
+    port: 20080
+    targetPort: 80
+  type: NodePort

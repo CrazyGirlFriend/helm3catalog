@@ -1,0 +1,7 @@
+name: hadoop-other
+description: hadoop集群
+version: 0.0.1
+keywords:
+  - hadoop-ther
+sources:
+home:
