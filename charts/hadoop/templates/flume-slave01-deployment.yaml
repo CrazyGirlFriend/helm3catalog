@@ -12,8 +12,8 @@ spec:
       labels:
         app: flume-slave01
     spec:
-      containers:
       hostname: flume-slave01
+      containers:
       - env:
           - name: FLUME_AGENT_NAME
             value: docker

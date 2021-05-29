@@ -12,8 +12,8 @@ spec:
       labels:
         app: hbase-slave2
     spec:
-      containers:
       hostname: hbase-slave2
-      - name: hbase-slave2
-        image: 119.253.86.183:18080/hadoop_plus/book2/hbase:slave2
-        tty: true
+      containers:
+        - name: hbase-slave2
+          image: 119.253.86.183:18080/hadoop_plus/book2/hbase:slave2
+          tty: true

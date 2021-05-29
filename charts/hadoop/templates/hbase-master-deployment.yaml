@@ -12,18 +12,18 @@ spec:
       labels:
         app: hbase-master
     spec:
-      containers:
       hostname: hbase-master
-      - name: hbase-master
-        image: 119.253.86.183:18080/hadoop_plus/book2/hbase:master-slave1
-        tty: true
-        ports:
-          - containerPort: 50070
-          - containerPort: 8088
-          - containerPort: 8080
-          - containerPort: 8042
-          - containerPort: 16010
-          - containerPort: 7077
-          - containerPort: 4040
-          - containerPort: 10002
-          - containerPort: 5000
+      containers:
+        - name: hbase-master
+          image: 119.253.86.183:18080/hadoop_plus/book2/hbase:master-slave1
+          tty: true
+          ports:
+            - containerPort: 50070
+            - containerPort: 8088
+            - containerPort: 8080
+            - containerPort: 8042
+            - containerPort: 16010
+            - containerPort: 7077
+            - containerPort: 4040
+            - containerPort: 10002
+            - containerPort: 5000

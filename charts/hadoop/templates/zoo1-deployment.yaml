@@ -12,8 +12,8 @@ spec:
       labels:
         app: zoo1
     spec:
-      containers:
       hostname: zoo1
+      containers:
       - env:
           - name: ZOO_MY_ID
             value: "1"

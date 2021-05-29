@@ -12,8 +12,8 @@ spec:
       labels:
         app: mysql
     spec:
-      containers:
       hostname: mysql
+      containers:
       - env:
           - name: MYSQL_DATABASE
             value: py_demo

@@ -12,8 +12,8 @@ spec:
       labels:
         app: kafka
     spec:
-      containers:
       hostname: kafka
+      containers:
       - name: kafka
         image: 119.253.86.183:18080/hadoop/book2/kafka:2.11
         tty: true

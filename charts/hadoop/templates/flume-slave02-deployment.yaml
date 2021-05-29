@@ -12,13 +12,13 @@ spec:
       labels:
         app: flume-slave02
     spec:
-      containers:
       hostname: flume-slave02
-      - env:
-          - name: FLUME_AGENT_NAME
-            value: docker
-        name: flume-slave02
-        image: 119.253.86.183:18080/hadoop/book2/flume-apache:02
-        tty: true
-        ports:
-        - containerPort: 80
+      containers:
+        - env:
+            - name: FLUME_AGENT_NAME
+              value: docker
+          name: flume-slave02
+          image: 119.253.86.183:18080/hadoop/book2/flume-apache:02
+          tty: true
+          ports:
+            - containerPort: 80

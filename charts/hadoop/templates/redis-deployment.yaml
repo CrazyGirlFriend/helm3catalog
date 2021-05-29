@@ -12,8 +12,8 @@ spec:
       labels:
         app: redis
     spec:
-      containers:
       hostname: redis
+      containers:
       - name: redis
         image: 119.253.86.183:18080/hadoop/book2/redis:5.0
         tty: true
