@@ -13,6 +13,7 @@ spec:
         app: zoo2
     spec:
       containers:
+      hostname: z002
       - env:
           - name: ZOO_MY_ID
             value: "2"

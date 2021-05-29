@@ -13,6 +13,7 @@ spec:
         app: zoo1
     spec:
       containers:
+      hostname: zoo1
       - env:
           - name: ZOO_MY_ID
             value: "1"

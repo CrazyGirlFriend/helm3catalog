@@ -13,6 +13,7 @@ spec:
         app: hbase-slave1
     spec:
       containers:
+      hostname: hbase-slave1
       - name: hbase-slave1
         image: 119.253.86.183:18080/hadoop_plus/book2/hbase:master-slave1
         tty: true

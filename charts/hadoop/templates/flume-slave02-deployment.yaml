@@ -13,6 +13,7 @@ spec:
         app: flume-slave02
     spec:
       containers:
+      hostname: flume-slave02
       - env:
           - name: FLUME_AGENT_NAME
             value: docker
