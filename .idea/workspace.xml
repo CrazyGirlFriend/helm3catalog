@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="创建mysql服务">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="修改mysql nodeport">
       <change beforePath="$PROJECT_DIR$/charts/hadoop/templates/mysql-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/charts/hadoop/templates/mysql-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,7 @@
       <workItem from="1621839789531" duration="55000" />
       <workItem from="1621843189389" duration="2272000" />
       <workItem from="1623810126204" duration="42000" />
-      <workItem from="1623810454212" duration="565000" />
+      <workItem from="1623810454212" duration="711000" />
     </task>
     <task id="LOCAL-00001" summary="修改镜像tag">
       <created>1621145029329</created>
@@ -123,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623810753059</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修改mysql nodeport">
+      <created>1623811278742</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623811278742</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +155,8 @@
     <MESSAGE value="还原成之前的内容" />
     <MESSAGE value="重新编写helloworld 模版" />
     <MESSAGE value="创建mysql服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建mysql服务" />
+    <MESSAGE value="修改mysql nodeport" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改mysql nodeport" />
   </component>
   <component name="WindowStateProjectService">
     <state x="176" y="182" key="IDE.errors.dialog" timestamp="1621145074203">
@@ -160,10 +167,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621246877511" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1623810852287">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1623811281553">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1623810852287" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1623811281553" />
     <state x="320" y="195" key="Vcs.Push.Dialog.v2/0.25.1440.820@0.25.1440.820" timestamp="1621145038223" />
   </component>
 </project>
