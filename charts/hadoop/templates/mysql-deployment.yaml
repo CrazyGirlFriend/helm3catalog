@@ -26,6 +26,8 @@ spec:
           - name: MYSQL_USER
             value: docker
         name: mysql
+        ports:
+          - containerPort: 3306
         image: 119.253.86.183:18080/hadoop_plus/book2/mysql:5.7
         tty: true
 

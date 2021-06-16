@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="重新编写helloworld 模版" />
+    <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="重新编写helloworld 模版">
+      <change afterPath="$PROJECT_DIR$/charts/hadoop/templates/mysql-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charts/hadoop/templates/mysql-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/charts/hadoop/templates/mysql-deployment.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,8 +32,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="23243636-9b4c-4081-8393-4f988bc6da9b" />
+  <component name="JupyterTrust" id="1fea3f35-79a6-4e0d-8cd7-4e73b4bce450" />
   <component name="ProjectId" id="1sbL0PoZsALxa8qccsofh6li893" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,6 +57,9 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="" />
@@ -62,6 +72,8 @@
       <workItem from="1621246547674" duration="628000" />
       <workItem from="1621839789531" duration="55000" />
       <workItem from="1621843189389" duration="2272000" />
+      <workItem from="1623810126204" duration="42000" />
+      <workItem from="1623810454212" duration="117000" />
     </task>
     <task id="LOCAL-00001" summary="修改镜像tag">
       <created>1621145029329</created>
