@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="修改mysql svc name">
+    <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="修改mysql selector">
+      <change afterPath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave1-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave2-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/charts/hadoop/templates/mysql-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/charts/hadoop/templates/mysql-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave1-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave1-deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="1fea3f35-79a6-4e0d-8cd7-4e73b4bce450" />
+  <component name="JupyterTrust" id="27c33ac2-6072-4132-8156-04f6efb962df" />
   <component name="ProjectId" id="1sbL0PoZsALxa8qccsofh6li893" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/charts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/charts/hadoop/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -52,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/charts/hadoop/templates" />
       <recent name="$PROJECT_DIR$/charts" />
     </key>
   </component>
@@ -72,7 +75,8 @@
       <workItem from="1621839789531" duration="55000" />
       <workItem from="1621843189389" duration="2272000" />
       <workItem from="1623810126204" duration="42000" />
-      <workItem from="1623810454212" duration="1543000" />
+      <workItem from="1623810454212" duration="4230000" />
+      <workItem from="1623982527906" duration="1252000" />
     </task>
     <task id="LOCAL-00001" summary="修改镜像tag">
       <created>1621145029329</created>
@@ -137,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623811595692</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修改mysql selector">
+      <created>1623812811627</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623812811627</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +176,8 @@
     <MESSAGE value="创建mysql服务" />
     <MESSAGE value="修改mysql nodeport" />
     <MESSAGE value="修改mysql svc name" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改mysql svc name" />
+    <MESSAGE value="修改mysql selector" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改mysql selector" />
   </component>
   <component name="WindowStateProjectService">
     <state x="176" y="182" key="IDE.errors.dialog" timestamp="1621145074203">
@@ -176,10 +188,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621246877511" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1623811748606">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1623812821775">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1623811748606" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1623812821775" />
     <state x="320" y="195" key="Vcs.Push.Dialog.v2/0.25.1440.820@0.25.1440.820" timestamp="1621145038223" />
   </component>
 </project>

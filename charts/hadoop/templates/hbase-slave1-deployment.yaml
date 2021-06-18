@@ -17,3 +17,17 @@ spec:
         - name: hbase-slave1
           image: 119.253.86.183:18080/hadoop_plus/book2/hbase:master-slave1
           tty: true
+          ports:
+            - containerPort: 50020
+            - containerPort: 38727
+            - containerPort: 8040
+            - containerPort: 8042
+            - containerPort: 22
+            - containerPort: 46393
+            - containerPort: 13562
+            - containerPort: 50010
+            - containerPort: 50075
+            - containerPort: 36767
+            - containerPort: 50620
+            - containerPort: 38188
+            - containerPort: 46575
