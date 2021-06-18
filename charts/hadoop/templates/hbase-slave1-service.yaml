@@ -8,30 +8,43 @@ spec:
     app: hbase-slave1
   ports:
     - port: 50020
+      name: "50020"
       targetPort: 50020
     - port: 38727
+      name: "38727"
       targetPort: 38727
     - port: 8040
+      name: "8040"
       targetPort: 8040
     - port: 8042
+      name: "8042"
       targetPort: 8042
     - port: 22
+      name: "22"
       targetPort: 22
     - port: 46393
+      name: "46393"
       targetPort: 46393
     - port: 13562
+      name: "13562"
       targetPort: 13562
     - port: 50010
+      name: "50010"
       targetPort: 50010
     - port: 50075
+      name: "50075"
       targetPort: 50075
     - port: 36767
+      name: "36767"
       targetPort: 36767
     - port: 50620
+      name: "50620"
       targetPort: 50620
     - port: 38188
+      name: "38188"
       targetPort: 38188
     - port: 46575
+      name: "46575"
       targetPort: 46575
 
 
