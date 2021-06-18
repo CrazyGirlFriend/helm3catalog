@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="修改slave svc name">
+    <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="修改slave的hostname">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave1-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave1-deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave2-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave2-deployment.yaml" afterDir="false" />
@@ -76,7 +76,7 @@
       <workItem from="1623810126204" duration="42000" />
       <workItem from="1623810454212" duration="4230000" />
       <workItem from="1623982527906" duration="6566000" />
-      <workItem from="1624017234079" duration="93000" />
+      <workItem from="1624017234079" duration="668000" />
     </task>
     <task id="LOCAL-00001" summary="修改镜像tag">
       <created>1621145029329</created>
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623987662816</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="修改slave的hostname">
+      <created>1624017350034</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1624017350034</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,25 +215,27 @@
     <MESSAGE value="添加slave svc" />
     <MESSAGE value="添加slave svc spec name" />
     <MESSAGE value="修改slave svc name" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改slave svc name" />
+    <MESSAGE value="修改slave的hostname" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改slave的hostname" />
   </component>
   <component name="WindowStateProjectService">
     <state x="144" y="76" key="DiffContextDialog" timestamp="1623988188432">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="76" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1623988188432" />
-    <state x="176" y="182" key="IDE.errors.dialog" timestamp="1621145074203">
-      <screen x="0" y="25" width="1440" height="820" />
+    <state x="176" y="172" key="IDE.errors.dialog" timestamp="1624017828991">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="176" y="172" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1624017828991" />
     <state x="176" y="182" key="IDE.errors.dialog/0.25.1440.820@0.25.1440.820" timestamp="1621145074203" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1621246877511">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621246877511" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1623989634829">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1624017887413">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1623989634829" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1624017887413" />
     <state x="320" y="195" key="Vcs.Push.Dialog.v2/0.25.1440.820@0.25.1440.820" timestamp="1621145038223" />
   </component>
 </project>
