@@ -12,7 +12,7 @@ spec:
       labels:
         app: hbase-slave1
     spec:
-      hostname: hbase-slave1
+      hostname: hbase-slave1.hadoop-docker
       containers:
         - name: hbase-slave1
           image: 119.253.86.183:18080/hadoop_plus/book2/hbase:master-slave1

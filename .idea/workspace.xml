@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="修改slave svc name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave1-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave1-deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave2-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave2-deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="27c33ac2-6072-4132-8156-04f6efb962df" />
+  <component name="JupyterTrust" id="1960a9e5-2051-40db-9dbd-32b05a819df4" />
   <component name="ProjectId" id="1sbL0PoZsALxa8qccsofh6li893" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -73,7 +75,8 @@
       <workItem from="1621843189389" duration="2272000" />
       <workItem from="1623810126204" duration="42000" />
       <workItem from="1623810454212" duration="4230000" />
-      <workItem from="1623982527906" duration="3111000" />
+      <workItem from="1623982527906" duration="6566000" />
+      <workItem from="1624017234079" duration="93000" />
     </task>
     <task id="LOCAL-00001" summary="修改镜像tag">
       <created>1621145029329</created>
@@ -166,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623986434523</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="修改slave svc name">
+      <created>1623987662816</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1623987662816</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +211,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改slave svc name" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="144" y="76" key="DiffContextDialog" timestamp="1623988188432">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="144" y="76" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1623988188432" />
     <state x="176" y="182" key="IDE.errors.dialog" timestamp="1621145074203">
       <screen x="0" y="25" width="1440" height="820" />
     </state>
@@ -209,10 +223,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621246877511" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1623986436357">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1623989634829">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1623986436357" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1623989634829" />
     <state x="320" y="195" key="Vcs.Push.Dialog.v2/0.25.1440.820@0.25.1440.820" timestamp="1621145038223" />
   </component>
 </project>
