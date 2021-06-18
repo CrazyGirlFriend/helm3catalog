@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="添加slave svc">
-      <change beforePath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave1-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave1-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave2-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/charts/hadoop/templates/hbase-slave2-service.yaml" afterDir="false" />
+    <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="添加slave svc spec name">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <workItem from="1621843189389" duration="2272000" />
       <workItem from="1623810126204" duration="42000" />
       <workItem from="1623810454212" duration="4230000" />
-      <workItem from="1623982527906" duration="1546000" />
+      <workItem from="1623982527906" duration="2722000" />
     </task>
     <task id="LOCAL-00001" summary="修改镜像tag">
       <created>1621145029329</created>
@@ -153,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623984404839</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="添加slave svc spec name">
+      <created>1623984665188</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623984665188</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +189,8 @@
     <MESSAGE value="修改mysql svc name" />
     <MESSAGE value="修改mysql selector" />
     <MESSAGE value="添加slave svc" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加slave svc" />
+    <MESSAGE value="添加slave svc spec name" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加slave svc spec name" />
   </component>
   <component name="WindowStateProjectService">
     <state x="176" y="182" key="IDE.errors.dialog" timestamp="1621145074203">
@@ -194,10 +201,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621246877511" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1623984406933">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1623985543215">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1623984406933" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1623985543215" />
     <state x="320" y="195" key="Vcs.Push.Dialog.v2/0.25.1440.820@0.25.1440.820" timestamp="1621145038223" />
   </component>
 </project>
