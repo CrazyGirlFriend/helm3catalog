@@ -27,3 +27,5 @@ spec:
             - containerPort: 4040
             - containerPort: 10002
             - containerPort: 5000
+            - containerPort: 54310
+
