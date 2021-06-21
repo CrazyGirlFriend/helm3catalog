@@ -38,6 +38,20 @@ spec:
   - name: "54310"
     port: 54310
     targetPort: 54310
-
+  - name: "8032"
+    port: 8032
+    targetPort: 8032
+  - name: "8033"
+    port: 8033
+    targetPort: 8033
+  - name: "46773"
+    port: 46773
+    targetPort: 46773
+  - name: "8030"
+    port: 8030
+    targetPort: 8030
+  - name: "8031"
+    port: 8031
+    targetPort: 8031
 
 
