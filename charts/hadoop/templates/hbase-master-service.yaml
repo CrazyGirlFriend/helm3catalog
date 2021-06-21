@@ -36,8 +36,8 @@ spec:
     port: 5000
     targetPort: 5000
   - name: "54310"
-      port: 54310
-      targetPort: 54310
+    port: 54310
+    targetPort: 54310
 
 
 

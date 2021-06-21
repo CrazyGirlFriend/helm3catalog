@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="修改slave的hostname">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/charts/hadoop/templates/hbase-master-deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/charts/hadoop/templates/hbase-master-deployment.yaml" afterDir="false" />
+    <list default="true" id="579cde28-3819-4691-9990-0ed8eab4f400" name="Default Changelist" comment="hbase master 增加54310端口">
       <change beforePath="$PROJECT_DIR$/charts/hadoop/templates/hbase-master-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/charts/hadoop/templates/hbase-master-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +75,7 @@
       <workItem from="1623810454212" duration="4230000" />
       <workItem from="1623982527906" duration="6566000" />
       <workItem from="1624017234079" duration="1352000" />
-      <workItem from="1624264249156" duration="44000" />
+      <workItem from="1624264249156" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="修改镜像tag">
       <created>1621145029329</created>
@@ -191,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624018139300</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="hbase master 增加54310端口">
+      <created>1624264324239</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1624264324239</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +229,8 @@
     <MESSAGE value="添加slave svc spec name" />
     <MESSAGE value="修改slave svc name" />
     <MESSAGE value="修改slave的hostname" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改slave的hostname" />
+    <MESSAGE value="hbase master 增加54310端口" />
+    <option name="LAST_COMMIT_MESSAGE" value="hbase master 增加54310端口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="144" y="76" key="DiffContextDialog" timestamp="1623988188432">
@@ -240,10 +246,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621246877511" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1624018141037">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1624264366435">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1624018141037" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1624264366435" />
     <state x="320" y="195" key="Vcs.Push.Dialog.v2/0.25.1440.820@0.25.1440.820" timestamp="1621145038223" />
   </component>
 </project>
