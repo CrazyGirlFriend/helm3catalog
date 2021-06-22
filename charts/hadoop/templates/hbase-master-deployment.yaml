@@ -28,4 +28,9 @@ spec:
             - containerPort: 10002
             - containerPort: 5000
             - containerPort: 54310
+            - containerPort: 8032
+            - containerPort: 8033
+            - containerPort: 46773
+            - containerPort: 8030
+            - containerPort: 8031
 
